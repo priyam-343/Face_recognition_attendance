@@ -1,0 +1,35 @@
+# Python Environment
+/venv/
+/env/
+/envs/
+/anaconda3/
+/miniconda3/
+__pycache__/
+*.pyc
+*.pyo
+/dist/
+/build/
+*.egg-info/
+
+# Flask & Database
+*.db
+/instance/
+EmployeeDB.db
+.flaskenv
+/flask_session/
+
+# Security
+.env
+
+# Computer Vision Models
+*.dat
+*.model
+
+# Data & Logs
+/static/records.csv
+/static/todayAttendance.csv
+/static/__pycache__/
+*.log
+
+# macOS System Files
+.DS_Store

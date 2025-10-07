@@ -41,6 +41,7 @@ The facial landmark file: shape_predictor_68_face_landmarks.dat must be placed i
 Active Gmail Account (for sending emails)
 
 2. Platform-Specific Installation
+
 A. Setup for macOS (Apple Silicon M1/M2/M3)
 This setup uses Miniforge and Homebrew to compile dependencies for the ARM architecture, ensuring native speed.
 
@@ -58,6 +59,7 @@ brew install cmake
 Install Python Libraries:
 
 pip install python-dotenv wheel dlib Flask flask_sqlalchemy Flask-Mail flask_login pandas face_recognition imutils opencv-python playsound deepface plotly plotly-express
+
 
 B. Setup for Windows
 This setup assumes you are using the standard Anaconda/Miniconda Python distribution.
